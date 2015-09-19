@@ -2,7 +2,7 @@
       <div class="carousel-inner" role="listbox">
             <div class="item active">
             <a href="http://www.our8thgens.com">
-                <img src="/images/header/header-<?php echo mt_rand(1, 57); ?>.jpg" />
+                <img src="/images/header/header-<?php echo mt_rand(1, 64); ?>.jpg" />
             </a>
         </div>
       </div>
