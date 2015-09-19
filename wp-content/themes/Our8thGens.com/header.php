@@ -191,14 +191,6 @@
     <!-- END: BREADCRUMB -->
 
 
-    <div id="featured_images_carousel" class="carousel slide" data-ride="carousel" style="margin-top: 10px;">
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <a href="http://www.our8thgens.com">
-                    <img src="../../../forum/styles/Mobbern3.1/theme/images/header/header-<?php echo mt_rand(1, 57); ?>.jpg" />
-                </a>
-            </div>
-        </div>
-    </div>
+    <?php include (ABSPATH.'/random_header_image.php'); ?>
 
     <div id="page-body" class="page-width container layout-with-right-sidebar" style="width: 1200px !important; padding-left: 15px !important; padding-right: 15px !important; max-width:100%">
