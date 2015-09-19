@@ -1,9 +1,9 @@
 <?php
-    $img_path = "/forum/styles/Mobbern3.1/theme/images/ads";
+    $img_path = "";
 
     $paths = array(
-        $img_path . '/trs',
-        $img_path . '/rv6',
+        '/images/ads/trs',
+        '/images/ads/rv6',
     );
 
     $sites = array(
