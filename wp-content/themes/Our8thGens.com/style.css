@@ -1,0 +1,507 @@
+/*
+ Theme Name:   Our8thGens.com
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Wordpress theme to match Mobbern PHPBB3 Theme
+ Author:       Our8thGens
+ Author URI:   http://www.our8thgens.com
+ Template:     twentytwelve
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  Our8thGens.com
+*/
+
+
+/* Wordpress Styling */
+
+/* Instagram Feed */
+aside.widget.jr-insta-slider div.jr-insta-thumb ul.thumbnails.no-bullet li {
+    list-style-type: none;
+    margin-right: 5px;
+    display: inline;
+    float: left;
+    width: 125px;
+}
+
+aside.widget.jr-insta-slider div.jr-insta-thumb ul.thumbnails.no-bullet li  a img {
+    width: 125px;
+}
+
+aside.widget.jr-insta-slider div.jr-insta-thumb ul.thumbnails.no-bullet li  span.jr-insta-time {
+    width: 125px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 10px;
+    display: block;
+}
+/* End Instagram Feed */
+
+/* Post Styling */
+div#content article.post header.entry-header h1.entry-title {
+    margin-bottom: 0px;
+    border-bottom: solid 1px #ccc;
+}
+
+div#content article.post header.entry-header footer.entry-meta {
+    margin-bottom: 15px;
+}
+
+div#content article.post header.entry-header footer.entry-meta span.edit-link {
+    float: right;
+    margin-top: 5px;
+}
+
+div#content article.post header.entry-header footer.entry-meta span.edit-link a {
+    /* button1 styling */
+    padding: 4px 10px;
+    color: #FFF;
+    border: none;
+    outline: none;
+    margin: 0;
+    text-transform: uppercase;
+    min-height: 38px;
+    background: #707070;
+}
+
+div#content article.post div.entry-content p {
+    padding-bottom: 5px;
+}
+
+div#content article.post div.entry-content p a.more-link {
+    /* button1 styling */
+    padding: 8px 15px;
+    color: #FFF;
+    border: none;
+    outline: none;
+    margin: 0;
+    text-transform: uppercase;
+    min-height: 38px;
+    background: #707070;
+    font-weight: normal;
+}
+
+div#content article.post div.entry-content p a.more-link:hover {
+    text-decoration: none;
+}
+
+div#content article.post div.entry-content {
+    font-size: 14px;
+}
+
+div#content article.post:hover {
+    /* Remove box shadow hover effect for Wordpress posts */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+div#content article.post {
+    padding-bottom: 0px;
+}
+
+div#content article.post div.entry-content a,
+div#content article.post div.entry-content a:link,
+div#content article.post div.entry-content a:visited {
+    color: #707070;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div#content article.post div.entry-content a:hover {
+    text-decoration: underline;
+}
+
+div#content nav.nav-single span.nav-previous a,
+div#content nav.nav-single span.nav-previous a:link,
+div#content nav.nav-single span.nav-previous a:visited,
+div#content nav.nav-single span.nav-next a,
+div#content nav.nav-single span.nav-next a:link,
+div#content nav.nav-single span.nav-next a:visited {
+    /* button1 styling */
+    padding: 8px 15px;
+    color: #FFF;
+    border: none;
+    outline: none;
+    margin: 0;
+    text-transform: uppercase;
+    min-height: 38px;
+    background: #707070;
+    /* end button1 styling */
+    color: #FFF;
+}
+
+div#content article.post div.entry-content blockquote {
+	background: none;
+	margin-left: 1em;
+	font-style: italic;
+}
+/* End Post Styling */
+
+/* Blog page styling */
+div#left-column div#content article {
+    margin-bottom: 0px;
+}
+
+/* Navbar Breadcrumb Styling */
+div.navbar.beadcrumb div.container ul.navlinks li span span {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+/* End Navbar Breadcrumb Styling */
+
+aside.widget.widget_categories ul li ul.children {
+    margin-left: 15px;
+}
+
+/****** WooCommerce ******/
+/* Products Archive */
+/* Limit width of products in grid, float left for multiple columns */
+li.product {
+    max-width: 175px;
+    float: left;
+    margin-right: 25px;
+}
+
+/* Reduce size and bold title font on product archive page */
+li.product h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Price info styling */
+li.product span.price {
+    border-top: 1px solid #ccc;
+    display:block;
+    text-align: center;
+    font-size: 14px;
+	color: #707070
+}
+
+/* Center image */
+li.product img {
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+/* 'View Options' button styling */
+li.product a.button {
+    padding: 4px 10px;
+    color: #FFF;
+    border: none;
+    outline: none;
+    margin: 0;
+    text-transform: uppercase;
+    background: #707070;
+    display: block;
+    text-align: center;
+}
+
+.woocommerce ul.products li.product h3 {
+    font-size: 17px;
+    padding-top: 0px;
+}
+
+.woocommerce ul.products li.product .price {
+    font-size: 14px;
+    color: #707070;
+}
+
+/* Move product grid down a bit from title/sorting */
+ul.products {
+    margin-top: 1.5em;
+}
+
+form.woocommerce-ordering {
+	margin-right: 2em !important;
+}
+
+form.woocommerce-ordering select.orderby {
+	background: #707070; 
+	color: white;
+}
+
+p.woocommerce-result-count {
+    width:50%;
+    margin: 0;
+    display: inline-block;
+}
+
+.woocommerce ul.products li.product .button {
+    margin-top: 0px;
+}
+/* End Products Archive */
+
+/* Single Product */
+div#content div.product div.images {
+    float: left;
+    margin-right: 25px;
+}
+
+div#content div.product div.images a.woocommerce-main-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 300px; /* Assumed the single product image size does not change */
+}
+
+div#content div.product div.images div.thumbnails {
+    width: 300px; /* Assumed the single product image size does not change */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+div#content div.product div.images div.thumbnails a {
+    margin-top: 5px;
+    display: inline-block;
+}
+
+div#content div.product div.images {
+    float: left;
+}
+
+div#content div.product div h1.product_title {
+    font-size: 30px;
+}
+
+div#content div.product div.woocommerce-tabs ul li {
+    list-style: none;
+    float: left;
+}
+
+/* Hide price range */
+div.summary div.offers p.price {
+	display: none !important;
+}
+
+/* Hide SKU */
+div.summary div.product_meta span.sku_wrapper {
+	display: none;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel h2 {
+    margin-bottom: 0px !important;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel table.shop_attributes tbody tr th {
+    width: 0px;
+    border-right: 1px dotted rgba(0,0,0,.1);
+}
+
+.woocommerce div.product .woocommerce-tabs .panel table.shop_attributes tbody tr td {
+    padding-left: 5px;
+}
+
+.woocommerce div.product .images,
+.woocommerce div.product .woocommerce-tabs {
+    margin-right: 0px !important;
+}
+
+.woocommerce div.product div.woocommerce-tabs {
+    clear: inherit !important;
+    float: right;
+    width: 52%;
+}
+
+.woocommerce div.product .summary.entry-summary {
+    width: 52% !important;
+    margin-bottom: 0px !important;
+}
+
+.woocommerce div.product div.related.products {
+    clear: both;    
+    border-top: 1px dotted rgba(0,0,0,.1);
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.woocommerce div.product div.related.products h2 {
+    margin-bottom: 15px !important;
+}
+
+
+.woocommerce button.single_add_to_cart_button {
+    padding: 7px 10px;
+    color: #FFF !important;
+    border: none;
+    outline: none;
+    margin: 0;
+    text-transform: uppercase;
+    background-color: #707070 !important;
+    display: block;
+    text-align: center;
+}
+
+
+
+a.button:hover {
+    background-color: #949494 !important;
+    color: #FFFFFF !important;
+}
+
+.woocommerce .single_add_to_cart_button
+{
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.woocommerce .single_add_to_cart_button:hover {
+    background: #949494 !important;
+}
+
+.woocommerce div.product_meta {
+    display: none;
+}
+
+.woocommerce div.product div.images {
+    margin-bottom: 0.5em;
+}
+/* End Single Product */
+
+div.summary form table.variations label {
+    font-size: 14px;
+    padding-top: 12px;
+    color: #707070;
+}
+
+#tab-description {
+    font-size: 14px;
+}
+
+#tab-description a:link,
+#tab-description a:visited {
+    font-weight: bold;
+}
+
+/* WooCommerce Sidebar */
+aside.widget h3.widget-title {
+    margin-top: 10px;
+}
+
+aside.widget_shopping_cart {
+    padding-bottom: 4em;
+    border-bottom: 1px solid #ccc;
+}
+
+aside.widget_shopping_cart div.widget_shopping_cart_content p.total {
+    float: left;
+    font-size: 15px;
+
+}
+
+aside.widget_shopping_cart div.widget_shopping_cart_content p.buttons {
+    float: right;
+    margin-top: 4px;
+}
+
+aside.widget_shopping_cart div.widget_shopping_cart_content p.buttons a {
+    padding: 7px 10px;
+    color: #FFF !important;;
+    text-transform: uppercase;
+    background-color: #707070 !important;
+}
+
+aside.widget.jr-insta-slider {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+/* End WooCommerce Sidebar */
+
+/* WooCommerce Cart */
+.woocommerce form table.cart input.button {
+    padding: 7px 10px;
+    color: #FFF !important;;
+    text-transform: uppercase;
+    background-color: #707070 !important;
+    margin-top: 3px;
+}
+
+.wc-proceed-to-checkout a {
+    padding: 7px 10px;
+    color: #FFF !important;;
+    text-transform: uppercase;
+    background-color: #707070 !important;
+}
+
+.cart_totals h2 {
+    display: none;
+}
+
+.cart_totals table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.cart_totals table tr th,
+.cart_totals table tr td {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.cart_totals table tr th {
+    font-weight: bold;
+}
+
+.cart_totals table tr td {
+    text-align: right;
+}
+
+.cart_totals table tr.order-total th,
+.cart_totals table tr.order-total td,
+.cart_totals table tr.order-total td span {
+    vertical-align: baseline !important;
+}
+
+.cart_totals table tr.order-total {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart_totals .wc-proceed-to-checkout {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* End WooCommerce Cart */
+
+/* End WooCommerce */
+
+/* Using custom image size of empty width and height on
+   images in Wordpress allows this CSS to help the images
+   fit in the responsive theme
+*/
+div.entry-content p a img {
+    max-width: 100%;
+}
+
+/* Add back list styling for post content */
+div.entry-content ol, ul {
+    /* list-style: circle; */
+}
+
+/* Negate body moving after site has been scrolled */
+#page-body.body-scrolled { padding-top: 15px !important; }
+
+/* Gallery Styling */
+.gallery-item {
+    float: left;
+    width: 21%;
+    margin: 10px 2%;
+    background-color: #FFFFFF;
+}
+
+.gallery-item img {
+    width: 94%;
+    height: auto;
+    margin: 3%;
+}
